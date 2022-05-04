@@ -2,10 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    box-sizing: border-box;
 }
-
-.main-1{
+/* .main-1{
     padding-top: 20px;
 }
 .div-menu{
@@ -35,7 +33,59 @@
 
 .ul-menu li a:hover{
     background-color: #888086;
+} */
+
+a{
+    text-decoration: none;
+    color: black;
 }
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(192, 179, 175);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+a:hover{
+    color: white;
+}
+
+@media (max-width: 700px) {
+    header{
+        flex-direction: column;
+        height: 95px;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+}
+
+
+
+
+
+
+
 
 .carrousel{
     width: 100%;
