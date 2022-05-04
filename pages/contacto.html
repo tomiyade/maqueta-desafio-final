@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
     <title>contacto</title>
 </head>
@@ -24,28 +25,33 @@
     
 
     <footer>
-        <h1>Formulario</h1>
-        <form>
-            <fieldset>
-                <legend>Formulario 2</legend>
-                <label for="nombre y apellido">Nombre</label>
-                <input type="text" name="nombre" placeholder="Escriba aqui su nombre dentro del juego">
-                <br>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" placeholder="Escriba aqui apellido">
-                <br>
-                <label for="mail">Mail</label>
-                <input type="text" name="mail" placeholder="Escriba aqui su Mail">
-                <div>Nos ayudaria saber tu opinion</div>
-                <textarea name="text" cols="100" rows="5"></textarea>
-                <hr>
-                <input type="submit" value="Enviar Formulario">
-                <input type="reset" value="Borrar formulario">
-            </fieldset>
-        </form>
+        <div data-aos="fade-right">
+            <h1>Formulario</h1>
+            <form>
+                <fieldset>
+                    <legend>Formulario 2</legend>
+                    <label for="nombre y apellido">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Escriba aqui su nombre dentro del juego">
+                    <br>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" placeholder="Escriba aqui apellido">
+                    <br>
+                    <label for="mail">Mail</label>
+                    <input type="text" name="mail" placeholder="Escriba aqui su Mail">
+                    <div>Nos ayudaria saber tu opinion</div>
+                    <textarea name="text" cols="100" rows="5"></textarea>
+                    <hr>
+                    <input type="submit" value="Enviar Formulario">
+                    <input type="reset" value="Borrar formulario">
+                </fieldset>
+            </form>
+        </div>
     </footer>
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
