@@ -3,37 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* .main-1{
-    padding-top: 20px;
-}
-.div-menu{
-    background-color: black;
-    list-style: none;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-.div-a-menu{
-    color: white;
-    text-decoration: none;
-}
-.div-menu li a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
-}
-
-.div-menu li{
-    display: inline-block;
-    text-align: center;
-}
-
-.ul-menu li a:hover{
-    background-color: #888086;
-} */
 
 a{
     text-decoration: none;
